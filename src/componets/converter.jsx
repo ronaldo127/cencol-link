@@ -10,7 +10,7 @@ const CleanURLComponent = () => {
 
     // Replace the initial part with the desired domain
     //ftpes://studentweb.centennialcollege.ca/gbarbos5/assignment%204.html/assiognment4.html
-    const cleaned = url.replace(/^.*studentweb(ftp)\.centennialcollege\.ca/, 'http://studentweb.cencol.ca');
+    const cleaned = url.replace(/^.*studentweb(ftp)?\.centennialcollege\.ca/, 'http://studentweb.cencol.ca');
     setCleanedURL(cleaned);
   };
 
